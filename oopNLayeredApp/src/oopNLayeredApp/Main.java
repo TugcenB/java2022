@@ -1,12 +1,9 @@
 package oopNLayeredApp;
 
-import java.util.List;
-
 import oopNLayeredApp.business.ProductManager;
 import oopNLayeredApp.core.logging.DatabaseLogger;
 import oopNLayeredApp.core.logging.FileLogger;
 import oopNLayeredApp.core.logging.Logger;
-import oopNLayeredApp.dataAccess.HibernateProductDao;
 import oopNLayeredApp.dataAccess.JdbcProductDao;
 import oopNLayeredApp.entities.Product;
 
